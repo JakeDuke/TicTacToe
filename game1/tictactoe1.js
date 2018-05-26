@@ -6,10 +6,10 @@
 var nextPlayer = true;
 
 function play(box) {
-	if(nextPlayer) {
-		box.innerHTML = 'x';
+	if(nextPlayer){
+		box.innerHTML = 'X';
 	} else {
-		box.innerHTML = 'o';
-	};
+		box.innerHTML = 'O';
+	}
 	nextPlayer = !nextPlayer;
 }

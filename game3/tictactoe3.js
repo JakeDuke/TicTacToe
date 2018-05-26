@@ -17,13 +17,12 @@ function play(box) {
 			boardState[box.id] = 'o';
 		};
 		nextPlayer = !nextPlayer;
-		// redraw board only if it was changed?
+		
 		populateBoard();
 	} else {
-		alert('grow up. you can\'t do that')
+		alert("YO! You can not do this!")
 	};
-	// redraw board even if it wasn't changed? your call
-	// populateBoard();
+
 };
 
 function populateBoard() {

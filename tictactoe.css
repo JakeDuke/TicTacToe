@@ -1,17 +1,34 @@
 body {
-  font-family: Helvetica;
+  font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 td {
-  padding: 1em 1.5em;
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid black;
+  height: 75px;
+  width: 75px;
+  font-size: 45px;
 }
+
+
+td:hover {
+  background-color: aquamarine;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+td:not(:empty) {
+  background-color:rgb(253, 241, 174);
+  transition: all 2s;
+}  
 
 table {
   border-collapse: collapse;
 }
 
-/* css challenge: 
-	make the boxes the same size from the start
-*/
+#reset{
+  display: block;
+  margin: 5% auto;
+  border-radius: 15px;
+  cursor: pointer;
+}
