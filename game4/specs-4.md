@@ -1,0 +1,1 @@
+populateBoard function is modified. Nested array is added

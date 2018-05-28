@@ -1,5 +1,3 @@
-// game 5 will
-// 	like 4 but with a 'row' attribute on the 'tr's.  for better looping
 
 var nextPlayer = true;
 

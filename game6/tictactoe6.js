@@ -1,7 +1,3 @@
-// game 6 will
-// 	start with an empty "ticTacBoard" div in the html and generate the board dynamically
-// 	have an on load listener to generate the first board when the page is loaded
-
 
 var nextPlayer = true;
 
@@ -52,7 +48,6 @@ var play = function (box) {
 			console.log(boardState);
 			populateBoard();
 		} else {
-			// alert ('grow up. you can\'t do that');
 			header.innerHTML = 'WHO\'S A BAD BOY?';
 			
 		};

@@ -1,0 +1,1 @@
+Now it's time to declare function that will render our DOM elements
